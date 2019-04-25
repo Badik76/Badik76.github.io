@@ -1,0 +1,67 @@
+/*FOOTER CSS*/
+/* modal */
+.container-fluid > div {
+  border: 0;
+}
+
+.tcolor {
+ color: #1b51b5;
+}
+
+.black-text {
+color: black;
+}
+.backcolor {
+  background-color: #30ace7;
+  color: #ffffff;
+}
+
+/* modal button */
+
+.btnc {
+  color: #ffffff;
+}
+
+/*Couleur footer (back et police)*/
+.page-footer {
+  padding-top: 1.5rem;
+}
+
+.fcolor {
+  background-color: #0f215f;
+  color: #ffffff;
+}
+
+.liafooter {
+  color: white;
+}
+
+footer a:hover {
+  color: #abdaf2;
+  text-decoration: none;
+}
+/*Maps Google*/
+/*Partie Social Media*/
+/*Couleur et forme transitions*/
+.tcolor {
+  background-color: #ffffff;
+}
+
+/*Mise en forme paragraphe*/
+.ptext {
+  text-align: left;
+  font-size: 0.65rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+/* Item réseaux sociaux */
+.fab {
+  font-size: 2rem;
+  width: 3rem;
+}
+/* Fin item réseaux sociaux */
+.red-text {
+  color: red;
+}
+/*FIN FOOTER CSS*/

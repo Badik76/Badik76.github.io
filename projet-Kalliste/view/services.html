@@ -1,0 +1,27 @@
+<div class="row">
+  <div class="col-2"> <!-- col de navigation -->
+    <div class="row navbar-left">
+      <ul>
+        <li ng-repeat="article in articles | filter:{'type': 'service'}" ng-if="!noDuplicate(article.categorie)">
+          <a href="#!/services/{{article.categorie}}">{{article.categorie}}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-10"><!-- col de navigation -->
+    <div class="row">
+      <div class="card mb col-5" ng-repeat="article in articles | filter:{'type': 'service'} | filter:{'categorie': cat}"> <!-- debut row col 8 -->
+        <img src="asset/image/{{article.image}}">
+        <div class="card-body mb">
+          <div class="card-title">
+            <h5><a href="#!/service/{{article.id}}">{{article.titre}}</a>
+              <small>{{article.prix}} {{article.temps}}</small>
+            </h5>
+          </div>
+          <p class="card-text">{{article.categorie}} {{article.descriptif}}</p>
+          <a ng-click="ajouterAuPanier(article.id, article.titre, article.prix)" class="btn btn-primary mb">Ajouter au Panier</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- fin row col 8 -->

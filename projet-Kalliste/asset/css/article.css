@@ -1,0 +1,33 @@
+main a{
+  color: #4e00ff;
+}
+.mb.card-body{
+    text-align: center;
+}
+.mb.btn{
+    border-radius: 0;
+    box-shadow: 0.5px 1px 2px hsla(0, 0%, 20%, 1);
+    margin-bottom: 20px;
+}
+.mb.btn:hover{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 20%, 1);
+}
+.mb.card{
+    border-radius: 0px / 0px;
+    overflow: hidden;
+    box-shadow: 0.5px 1px 2px hsla(0, 0%, 20%, 1);
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;;
+}
+
+.card-text{
+  height: 200px;
+  overflow: hidden;
+}
+.card img{
+  height: 300px;
+  overflow: hidden;
+}
