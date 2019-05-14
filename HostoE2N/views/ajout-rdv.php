@@ -34,7 +34,7 @@ include '../controllers/ctlr-ajout-rdv.php'
                         <div class="col l6 s12">                    
                             <div class="input-field col s12 center-align">
                                 <h2>Prise de RDV</h2>
-                                <a href="../index.php" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
+                                <a href="../index.html" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
                             </div>
                         </div>
                         <?php if ($addSuccess) { ?>

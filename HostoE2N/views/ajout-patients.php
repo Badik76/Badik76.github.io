@@ -32,7 +32,7 @@ include '../controllers/ctlr-ajout-patient.php'
                         </div>
                         <div class="input-field col l6 s12 center-align">
                             <h1>Enregistrement du Patient</h1>
-                            <a href="../index.php" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
+                            <a href="../index.html" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
                             <?php if ($addSuccess) { ?>
                                 <h2><?= 'Patient enregistré !' ?></h2>
                             <?php } ?>

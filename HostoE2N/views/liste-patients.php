@@ -25,7 +25,7 @@ include '../controllers/ctlr-liste-patient.php'
             <div class="card-panel row">
                 <div class="col l6 s12">
                     <a href="ajout-patients.php" class="waves-effect waves-light btn"><i class="material-icons left">create</i>ENREGISTRER PATIENT</a>
-                    <a href="../index.php" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
+                    <a href="../index.html" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
                     <div class="row">                    
                         <form action="liste-patients.php" method="GET">
                             <div class="col l6 s12">

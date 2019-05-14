@@ -27,7 +27,7 @@ include '../controllers/ctlr-liste-rdv.php'
                 <div class="col l6 s12">
                     <h1>Liste des RDV</h1>               
                     <a href="ajout-rdv.php" class="waves-effect waves-light btn"><i class="material-icons left">event_note</i>ENREGISTRER RDV</a>
-                    <a href="../index.php" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
+                    <a href="../index.html" class="waves-effect waves-light btn"><i class="material-icons left">home</i>RETOUR</a>
                 </div>
                 <div class="col l6 s12">
                     <div class="container wrapper-align center-align left-part add">
